@@ -81,7 +81,7 @@ body {
 body {
     color: rgb(26, 26, 26);
     background: #f1f1f1;
-    font-size: 20px;
+    font-size: 17px;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
 }
 
@@ -165,8 +165,9 @@ p a:hover {
 p {
     letter-spacing: normal;
     line-height: 24px;
-    color: #888;
-    font-weight: 300;
+    color: rgb(15, 15, 15);
+    font-weight: 400;
+    font-size: 16px;
 }
 
 a {
@@ -280,6 +281,7 @@ section {
 
 .logo img {
     /* min-height: 90px; */
+    max-width: 100px;
 }
 
 .navbar-brand {
@@ -417,11 +419,13 @@ nav.bootsnav.navbar-sidebar ul.nav {
 .parallax-bg-2 {
     background: url(../images/f1.jpg) center 0 no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .parallax-bg-3 {
     background: url(../images/6.jpg) center 0 no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .parallax-bg-4 {
@@ -2956,20 +2960,25 @@ img.mfp-img {
 }
 
 .post-info h3 {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 0;
     margin-bottom: 0px;
+    text-align: center;
+    font-weight: 800;
 }
 
 .post-info h6 {
-    color: #ccc;
-    font-size: 12px;
+    color: #016634;
+    font-weight: 600;
+    font-size: 15px;
     font-family: 'Raleway', sans-serif;
     font-feature-settings: 'lnum';
     -moz-font-feature-settings: 'lnum=1';
     -ms-font-feature-settings: 'lnum';
     -webkit-font-feature-settings: 'lnum';
     -o-font-feature-settings: 'lnum';
+    text-align: center;
+    text-decoration: underline;
 }
 
 .post-info a {
@@ -2982,6 +2991,7 @@ img.mfp-img {
 
 .post-info p {
     margin-top: 20px;
+    font-weight: 400!important;
 }
 
 a.readmore {
@@ -3291,7 +3301,7 @@ a.readmore>span {
 =============================================*/
 
 .footer {
-    font-size: 17px;
+    /* font-size: 15px; */
     position: relative;
     z-index: 10;
 }
@@ -3303,8 +3313,8 @@ a.readmore>span {
 
 .footer .widget-title {
     position: relative;
-    font-size: 13px;
-    line-height: 1.4;
+    /* font-size: 13px; */
+    line-height: 24px;
     text-transform: uppercase;
     margin-bottom: 30px;
     color: #fff;
@@ -3346,6 +3356,11 @@ a.readmore>span {
 .footer-copyright {
     padding: 30px 0;
     background-color: #111312;
+    color: white!important;
+}
+
+.copyright {
+    color: white!important;
 }
 
 .copy-right {
@@ -4247,7 +4262,7 @@ ul.footer-gallery li img {
 }
 
 .widget-cover-bg {
-    background-image: url(../images/title-bg/title-hero-9.jpg);
+    background-image: url(../images/1.jpg);
 }
 
 .shop-cover-bg {

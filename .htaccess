@@ -1,0 +1,12 @@
+# mod_rewrite starts here
+
+RewriteEngine on
+
+# does not apply to directories
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# NC= nonCase
+# L = Apply to this rule
+RewriteRule ^(.*)$ $1.html [NC,L]

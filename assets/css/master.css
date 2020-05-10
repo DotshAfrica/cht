@@ -2950,6 +2950,7 @@ img.mfp-img {
     overflow: hidden;
     position: relative;
     z-index: 10;
+    border-radius: 10%;
 }
 
 .post .post-img img {
